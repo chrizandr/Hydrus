@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+.vscode/**
+.idea/**
+.DS_Store
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -103,5 +107,11 @@ ENV/
 # SQLite Databases
 *.db
 
+# Alembic DB Migration scripts
+hydrus/data/migrations/versions
+
 # Keys
 *.pem
+
+# Pipenv generated
+Pipfile*
